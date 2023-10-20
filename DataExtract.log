@@ -1,0 +1,330 @@
+2023-10-19 18:05:36.238 (24980): -----------------------------------------------------------------------------
+2023-10-19 18:05:36.238 (24980): Initializing fault reporting
+2023-10-19 18:05:36.238 (24980): Fault reporting log pathname: C:\Users\DELL\OneDrive\Desktop\tdeserver64-error_8640_23-1019-180536.log
+2023-10-19 18:05:36.238 (24980): Initializing MiniDump
+2023-10-19 18:05:36.238 (24980): Loading 'DbgHelp.dll'
+2023-10-19 18:05:36.238 (24980): Loaded 'C:\WINDOWS\SYSTEM32\dbghelp.dll'
+2023-10-19 18:05:36.238 (24980):   Product Name: Microsoft® Windows® Operating System
+2023-10-19 18:05:36.238 (24980):   File Version: 10.0.22621.1 (WinBuild.160101.0800)
+2023-10-19 18:05:36.238 (24980):   Product Version: 10.0.22621.1
+2023-10-19 18:05:36.238 (24980): Finding function 'MiniDumpWriteDump'
+2023-10-19 18:05:36.238 (24980): Success
+2023-10-19 18:05:36.238 (24980): Registering unhandled exception filter
+2023-10-19 18:05:36.238 (24980): -----------------------------------------------------------------------------
+2023-10-19 18:05:36.238 (24980): argv[0]="C:\Users\DELL\AppData\Local\Alteryx\bin\Tableau\tde\tdeserver64.exe"
+2023-10-19 18:05:36.238 (24980): argv[1]="--callback"
+2023-10-19 18:05:36.238 (24980): argv[2]="tab.pipe://./pipe/{21532417-2C66-4AEA-AA8D-A5A6DFE6F6BD}"
+2023-10-19 18:05:36.238 (24980): argv[3]="--listen"
+2023-10-19 18:05:36.238 (24980): argv[4]="tab.pipe://./pipe/auto"
+2023-10-19 18:05:36.238 (24980): argv[5]="--desktop"
+2023-10-19 18:05:36.238 (24980): argv[6]="--log"
+2023-10-19 18:05:36.238 (24980): argv[7]="C:\Users\DELL\OneDrive\Desktop\DataExtract.log"
+2023-10-19 18:05:36.238 (24980): pid=8640
+2023-10-19 18:05:36.238 (24980): Machine Configuration
+2023-10-19 18:05:36.238 (24980):   Max Descriptors: -1
+2023-10-19 18:05:36.238 (24980): Vectorization Support
+2023-10-19 18:05:36.238 (24980):   Supports SSE:    Yes
+2023-10-19 18:05:36.238 (24980):   Supports SSE2:   Yes
+2023-10-19 18:05:36.238 (24980):   Supports SSE3:   Yes
+2023-10-19 18:05:36.238 (24980):   Supports SSE4.1: Yes
+2023-10-19 18:05:36.238 (24980):   Supports SSE4.2: Yes
+2023-10-19 18:05:36.238 (24980):   Supports AVX:    Yes
+2023-10-19 18:05:36.238 (24980):   Supports AVX2:   Yes
+2023-10-19 18:05:36.238 (24980): Adjusted Values
+2023-10-19 18:05:36.238 (24980):   Physical RAM:              8311836672
+2023-10-19 18:05:36.238 (24980):   CPUs available to process: 8
+2023-10-19 18:05:36.238 (24980):   worker-threads:            8
+2023-10-19 18:05:36.238 (24980):   max-concurrency:           4
+2023-10-19 18:05:36.238 (24980):   query-parallelism:         4
+2023-10-19 18:05:36.238 (24980):   min-query-parallelism:     2
+2023-10-19 18:05:36.238 (24980):   work-buffer-size:          64
+2023-10-19 18:05:36.238 (24980):   TrackingMappedFiles :      1
+2023-10-19 18:05:36.238 (24980):   MemoryMapEntireFile:       1
+2023-10-19 18:05:36.238 (24980):   use-openfile-cache:        1
+2023-10-19 18:05:36.238 (24980): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{4427A521-9704-44C4-880D-48262CD8D139}
+2023-10-19 18:05:36.238 (24980): tdeserver: new connection, connection=tab.pipe://./pipe/{4427A521-9704-44C4-880D-48262CD8D139}
+2023-10-19 18:05:36.238 (8448): tdeserver: open session1, connection=tab.pipe://./pipe/{4427A521-9704-44C4-880D-48262CD8D139}
+2023-10-19 18:05:36.238 (1840): Session1: QueryExecute:
+2023-10-19 18:05:36.238 (1840): (create database "C:\\Users\\DELL\\OneDrive\\Desktop\\Financial_data.tde")
+2023-10-19 18:05:36.513 (1840): Compiling query with Memory Budget=697528320 MemoryAvailable=697528320
+2023-10-19 18:05:36.513 (1840): Session1: QueryExecute: OK, Elapsed time:0.270s, Compilation time:0.270s, Execution time:0.000s
+2023-10-19 18:05:36.513 (15788): Session1: QueryExecute:
+2023-10-19 18:05:36.513 (15788): (create schema [Extract])
+2023-10-19 18:05:36.513 (15788): Compiling query with Memory Budget=697425920 MemoryAvailable=697425920
+2023-10-19 18:05:36.529 (15788): Session1: QueryExecute: OK, Elapsed time:0.019s, Compilation time:0.000s, Execution time:0.019s
+2023-10-19 18:05:36.529 (24692): Session1: QueryExecute:
+2023-10-19 18:05:36.529 (24692): (create table [Extract].[Extract])
+2023-10-19 18:05:36.529 (24692): Compiling query with Memory Budget=697602048 MemoryAvailable=697602048
+2023-10-19 18:05:36.553 (24692): Session1: QueryExecute: OK, Elapsed time:0.022s, Compilation time:0.000s, Execution time:0.022s
+2023-10-19 18:05:36.553 (22628): Session1: QueryExecute:
+2023-10-19 18:05:36.553 (22628): (create column [Extract].[Extract].[Row ID] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "0" ) ))
+2023-10-19 18:05:36.561 (22628): Compiling query with Memory Budget=695300096 MemoryAvailable=695300096
+2023-10-19 18:05:36.577 (22628): Session1: QueryExecute: OK, Elapsed time:0.026s, Compilation time:0.003s, Execution time:0.023s
+2023-10-19 18:05:36.585 (24104): Session1: QueryExecute:
+2023-10-19 18:05:36.585 (24104): (create column [Extract].[Extract].[Order ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.585 (24104): Compiling query with Memory Budget=694460416 MemoryAvailable=694460416
+2023-10-19 18:05:36.595 (24104): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2023-10-19 18:05:36.595 (10176): Session1: QueryExecute:
+2023-10-19 18:05:36.595 (10176): (create column [Extract].[Extract].[Order Date] ( ( "builtin" "date" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ))
+2023-10-19 18:05:36.595 (10176): Compiling query with Memory Budget=694980608 MemoryAvailable=694980608
+2023-10-19 18:05:36.601 (10176): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2023-10-19 18:05:36.601 (23380): Session1: QueryExecute:
+2023-10-19 18:05:36.601 (23380): (create column [Extract].[Extract].[Year] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2023-10-19 18:05:36.601 (23380): Compiling query with Memory Budget=694362112 MemoryAvailable=694362112
+2023-10-19 18:05:36.617 (23380): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2023-10-19 18:05:36.617 (10412): Session1: QueryExecute:
+2023-10-19 18:05:36.617 (10412): (create column [Extract].[Extract].[Month] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "4" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.617 (10412): Compiling query with Memory Budget=691937280 MemoryAvailable=691937280
+2023-10-19 18:05:36.625 (10412): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2023-10-19 18:05:36.625 (1840): Session1: QueryExecute:
+2023-10-19 18:05:36.625 (1840): (create column [Extract].[Extract].[Day] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2023-10-19 18:05:36.625 (1840): Compiling query with Memory Budget=691937280 MemoryAvailable=691937280
+2023-10-19 18:05:36.633 (1840): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2023-10-19 18:05:36.633 (15788): Session1: QueryExecute:
+2023-10-19 18:05:36.633 (15788): (create column [Extract].[Extract].[Ship Mode] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "6" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.633 (15788): Compiling query with Memory Budget=692383744 MemoryAvailable=692383744
+2023-10-19 18:05:36.650 (15788): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2023-10-19 18:05:36.650 (24692): Session1: QueryExecute:
+2023-10-19 18:05:36.650 (24692): (create column [Extract].[Extract].[Customer ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "7" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.650 (24692): Compiling query with Memory Budget=694247424 MemoryAvailable=694247424
+2023-10-19 18:05:36.658 (24692): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2023-10-19 18:05:36.658 (22628): Session1: QueryExecute:
+2023-10-19 18:05:36.658 (22628): (create column [Extract].[Extract].[Customer Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "8" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.658 (22628): Compiling query with Memory Budget=701575168 MemoryAvailable=701575168
+2023-10-19 18:05:36.666 (22628): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2023-10-19 18:05:36.666 (24104): Session1: QueryExecute:
+2023-10-19 18:05:36.666 (24104): (create column [Extract].[Extract].[Segment] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "9" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.666 (24104): Compiling query with Memory Budget=700657664 MemoryAvailable=700657664
+2023-10-19 18:05:36.682 (24104): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2023-10-19 18:05:36.682 (10176): Session1: QueryExecute:
+2023-10-19 18:05:36.682 (10176): (create column [Extract].[Extract].[Country] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "10" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.682 (10176): Compiling query with Memory Budget=699195392 MemoryAvailable=699195392
+2023-10-19 18:05:36.690 (10176): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2023-10-19 18:05:36.690 (23380): Session1: QueryExecute:
+2023-10-19 18:05:36.690 (23380): (create column [Extract].[Extract].[City] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "11" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.690 (23380): Compiling query with Memory Budget=698200064 MemoryAvailable=698200064
+2023-10-19 18:05:36.699 (23380): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2023-10-19 18:05:36.699 (10412): Session1: QueryExecute:
+2023-10-19 18:05:36.699 (10412): (create column [Extract].[Extract].[State] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "12" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.699 (10412): Compiling query with Memory Budget=696819712 MemoryAvailable=696819712
+2023-10-19 18:05:36.707 (10412): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2023-10-19 18:05:36.707 (1840): Session1: QueryExecute:
+2023-10-19 18:05:36.707 (1840): (create column [Extract].[Extract].[Postal Code] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "13" ) ))
+2023-10-19 18:05:36.707 (1840): Compiling query with Memory Budget=695463936 MemoryAvailable=695463936
+2023-10-19 18:05:36.715 (1840): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.011s
+2023-10-19 18:05:36.715 (15788): Session1: QueryExecute:
+2023-10-19 18:05:36.715 (15788): (create column [Extract].[Extract].[Region] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "14" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.715 (15788): Compiling query with Memory Budget=692531200 MemoryAvailable=692531200
+2023-10-19 18:05:36.739 (15788): Session1: QueryExecute: OK, Elapsed time:0.019s, Compilation time:0.000s, Execution time:0.018s
+2023-10-19 18:05:36.739 (24692): Session1: QueryExecute:
+2023-10-19 18:05:36.739 (24692): (create column [Extract].[Extract].[Product ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "15" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.739 (24692): Compiling query with Memory Budget=689483776 MemoryAvailable=689483776
+2023-10-19 18:05:36.747 (24692): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2023-10-19 18:05:36.747 (22628): Session1: QueryExecute:
+2023-10-19 18:05:36.747 (22628): (create column [Extract].[Extract].[Category] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "16" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.747 (22628): Compiling query with Memory Budget=688455680 MemoryAvailable=688455680
+2023-10-19 18:05:36.755 (22628): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2023-10-19 18:05:36.755 (24104): Session1: QueryExecute:
+2023-10-19 18:05:36.755 (24104): (create column [Extract].[Extract].[Sub-Category] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "17" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.755 (24104): Compiling query with Memory Budget=687591424 MemoryAvailable=687591424
+2023-10-19 18:05:36.771 (24104): Session1: QueryExecute: OK, Elapsed time:0.017s, Compilation time:0.000s, Execution time:0.017s
+2023-10-19 18:05:36.771 (10176): Session1: QueryExecute:
+2023-10-19 18:05:36.771 (10176): (create column [Extract].[Extract].[Product Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "18" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-10-19 18:05:36.771 (10176): Compiling query with Memory Budget=683614208 MemoryAvailable=683614208
+2023-10-19 18:05:36.788 (10176): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.013s
+2023-10-19 18:05:36.788 (23380): Session1: QueryExecute:
+2023-10-19 18:05:36.788 (23380): (create column [Extract].[Extract].[Sales] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "19" ) ))
+2023-10-19 18:05:36.788 (23380): Compiling query with Memory Budget=680923136 MemoryAvailable=680923136
+2023-10-19 18:05:36.804 (23380): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2023-10-19 18:05:36.804 (10412): Session1: QueryExecute:
+2023-10-19 18:05:36.804 (10412): (create column [Extract].[Extract].[Quantity] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "20" ) ))
+2023-10-19 18:05:36.804 (10412): Compiling query with Memory Budget=678223872 MemoryAvailable=678223872
+2023-10-19 18:05:36.812 (10412): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2023-10-19 18:05:36.812 (1840): Session1: QueryExecute:
+2023-10-19 18:05:36.812 (1840): (create column [Extract].[Extract].[Discount] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "21" ) ))
+2023-10-19 18:05:36.812 (1840): Compiling query with Memory Budget=675926016 MemoryAvailable=675926016
+2023-10-19 18:05:36.820 (1840): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2023-10-19 18:05:36.828 (15788): Session1: QueryExecute:
+2023-10-19 18:05:36.828 (15788): (create column [Extract].[Extract].[Profit] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "22" ) ))
+2023-10-19 18:05:36.828 (15788): Compiling query with Memory Budget=680722432 MemoryAvailable=680722432
+2023-10-19 18:05:36.836 (15788): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2023-10-19 18:05:36.836 (24692): Session1: QueryExecute:
+2023-10-19 18:05:36.836 (24692): (create column [Extract].[Extract].[Loss] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "23" ) ))
+2023-10-19 18:05:36.836 (24692): Compiling query with Memory Budget=701423616 MemoryAvailable=701423616
+2023-10-19 18:05:36.844 (24692): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2023-10-19 18:05:36.852 (22628): Session1: InsertOpen: table="Extract" schema="Extract"
+2023-10-19 18:05:36.852 (22628):   column[0]="Row ID"
+2023-10-19 18:05:36.852 (22628):   column[1]="Order ID"
+2023-10-19 18:05:36.852 (22628):   column[2]="Order Date"
+2023-10-19 18:05:36.852 (22628):   column[3]="Year"
+2023-10-19 18:05:36.852 (22628):   column[4]="Month"
+2023-10-19 18:05:36.852 (22628):   column[5]="Day"
+2023-10-19 18:05:36.852 (22628):   column[6]="Ship Mode"
+2023-10-19 18:05:36.852 (22628):   column[7]="Customer ID"
+2023-10-19 18:05:36.852 (22628):   column[8]="Customer Name"
+2023-10-19 18:05:36.852 (22628):   column[9]="Segment"
+2023-10-19 18:05:36.852 (22628):   column[10]="Country"
+2023-10-19 18:05:36.852 (22628):   column[11]="City"
+2023-10-19 18:05:36.852 (22628):   column[12]="State"
+2023-10-19 18:05:36.852 (22628):   column[13]="Postal Code"
+2023-10-19 18:05:36.852 (22628):   column[14]="Region"
+2023-10-19 18:05:36.852 (22628):   column[15]="Product ID"
+2023-10-19 18:05:36.852 (22628):   column[16]="Category"
+2023-10-19 18:05:36.852 (22628):   column[17]="Sub-Category"
+2023-10-19 18:05:36.852 (22628):   column[18]="Product Name"
+2023-10-19 18:05:36.852 (22628):   column[19]="Sales"
+2023-10-19 18:05:36.852 (22628):   column[20]="Quantity"
+2023-10-19 18:05:36.852 (22628):   column[21]="Discount"
+2023-10-19 18:05:36.852 (22628):   column[22]="Profit"
+2023-10-19 18:05:36.852 (22628):   column[23]="Loss"
+2023-10-19 18:05:36.900 (24104): Session1: InsertPutValues: total_calls=1 total_message_size=1001648
+2023-10-19 18:05:37.112 (10176): Session1: InsertCommit: insert_guid=1 total_calls=1 total_message_size=1001648
+2023-10-19 18:05:37.112 (10176): Session1: InsertCommit: OK
+2023-10-19 18:05:37.112 (23380): Session1: InsertClose: insert_guid=1
+2023-10-19 18:05:37.112 (23380): Session1: InsertClose: OK
+2023-10-19 18:05:37.112 (10412): Session1: QueryExecute:
+2023-10-19 18:05:37.112 (10412): (package)
+2023-10-19 18:05:37.112 (10412): Compiling query with Memory Budget=685633536 MemoryAvailable=685633536
+2023-10-19 18:05:37.112 (10412): PackageDatabase: in-place package of "C:\Users\DELL\OneDrive\Desktop\Financial_data.tde"
+2023-10-19 18:05:37.161 (10412): PackageDatabase: finished
+2023-10-19 18:05:37.161 (10412): Session1: QueryExecute: OK, Elapsed time:0.044s, Compilation time:0.000s, Execution time:0.044s
+2023-10-19 18:05:37.161 (1840): Session1: QueryExecute:
+2023-10-19 18:05:37.161 (1840): (database "C:\\Users\\DELL\\OneDrive\\Desktop\\Financial_data.tde")
+2023-10-19 18:05:37.161 (1840): Compiling query with Memory Budget=686493696 MemoryAvailable=686493696
+2023-10-19 18:05:37.161 (1840): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2023-10-19 18:05:37.161 (15788): Session1: QueryExecute:
+2023-10-19 18:05:37.161 (15788): (show schemas)
+2023-10-19 18:05:37.161 (15788): Compiling query with Memory Budget=686481408 MemoryAvailable=686481408
+2023-10-19 18:05:37.163 (15788): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2023-10-19 18:05:37.163 (24692): Session1: RowsetGetValues: rowset_guid=2
+2023-10-19 18:05:37.163 (22628): Session1: RowsetGetValues: rowset_guid=2
+2023-10-19 18:05:37.163 (24104): Session1: RowsetClose: rowset_guid=2
+2023-10-19 18:05:37.163 (10176): Session1: QueryExecute:
+2023-10-19 18:05:37.163 (10176): (show tables [Extract])
+2023-10-19 18:05:37.163 (10176): Compiling query with Memory Budget=686448640 MemoryAvailable=686448640
+2023-10-19 18:05:37.163 (10176): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2023-10-19 18:05:37.163 (23380): Session1: RowsetGetValues: rowset_guid=3
+2023-10-19 18:05:37.163 (10412): Session1: RowsetGetValues: rowset_guid=3
+2023-10-19 18:05:37.163 (1840): Session1: RowsetClose: rowset_guid=3
+2023-10-19 18:05:37.163 (15788): Session1: QueryExecute:
+2023-10-19 18:05:37.163 (15788): (top (table [Extract].[Extract]) () 0)
+2023-10-19 18:05:37.168 (15788): Compiling query with DOP=4
+2023-10-19 18:05:37.168 (15788): Compiling query with Memory Budget=685830144 MemoryAvailable=685830144
+2023-10-19 18:05:37.168 (15788): Session1: QueryExecute: OK rowset_guid=4 n_columns=24, Elapsed time:0.009s, Compilation time:0.009s, Execution time:0.001s
+2023-10-19 18:05:37.176 (24692): Session1: RowsetClose: rowset_guid=4
+2023-10-19 18:05:37.176 (22628): Session1: QueryExecute:
+2023-10-19 18:05:37.176 (22628): (alter column [Extract].[Extract].[Row ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.176 (22628): Compiling query with Memory Budget=685907968 MemoryAvailable=685907968
+2023-10-19 18:05:37.197 (22628): Session1: QueryExecute: OK, Elapsed time:0.017s, Compilation time:0.000s, Execution time:0.017s
+2023-10-19 18:05:37.197 (24104): Session1: QueryExecute:
+2023-10-19 18:05:37.197 (24104): (alter column [Extract].[Extract].[Order ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.197 (24104): Compiling query with Memory Budget=685686784 MemoryAvailable=685686784
+2023-10-19 18:05:37.200 (24104): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2023-10-19 18:05:37.200 (10176): Session1: QueryExecute:
+2023-10-19 18:05:37.200 (10176): (alter column [Extract].[Extract].[Order Date] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.200 (10176): Compiling query with Memory Budget=686174208 MemoryAvailable=686174208
+2023-10-19 18:05:37.208 (10176): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2023-10-19 18:05:37.208 (23380): Session1: QueryExecute:
+2023-10-19 18:05:37.208 (23380): (alter column [Extract].[Extract].[Year] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.208 (23380): Compiling query with Memory Budget=686067712 MemoryAvailable=686067712
+2023-10-19 18:05:37.216 (23380): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2023-10-19 18:05:37.216 (10412): Session1: QueryExecute:
+2023-10-19 18:05:37.216 (10412): (alter column [Extract].[Extract].[Month] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.216 (10412): Compiling query with Memory Budget=686063616 MemoryAvailable=686063616
+2023-10-19 18:05:37.224 (10412): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2023-10-19 18:05:37.224 (1840): Session1: QueryExecute:
+2023-10-19 18:05:37.224 (1840): (alter column [Extract].[Extract].[Day] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.224 (1840): Compiling query with Memory Budget=686067712 MemoryAvailable=686067712
+2023-10-19 18:05:37.240 (1840): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2023-10-19 18:05:37.240 (15788): Session1: QueryExecute:
+2023-10-19 18:05:37.240 (15788): (alter column [Extract].[Extract].[Ship Mode] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.240 (15788): Compiling query with Memory Budget=686100480 MemoryAvailable=686100480
+2023-10-19 18:05:37.248 (15788): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2023-10-19 18:05:37.248 (24692): Session1: QueryExecute:
+2023-10-19 18:05:37.248 (24692): (alter column [Extract].[Extract].[Customer ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.248 (24692): Compiling query with Memory Budget=686088192 MemoryAvailable=686088192
+2023-10-19 18:05:37.256 (24692): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2023-10-19 18:05:37.256 (22628): Session1: QueryExecute:
+2023-10-19 18:05:37.256 (22628): (alter column [Extract].[Extract].[Customer Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.256 (22628): Compiling query with Memory Budget=686084096 MemoryAvailable=686084096
+2023-10-19 18:05:37.264 (22628): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2023-10-19 18:05:37.264 (24104): Session1: QueryExecute:
+2023-10-19 18:05:37.264 (24104): (alter column [Extract].[Extract].[Segment] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.264 (24104): Compiling query with Memory Budget=686084096 MemoryAvailable=686084096
+2023-10-19 18:05:37.272 (24104): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2023-10-19 18:05:37.272 (10176): Session1: QueryExecute:
+2023-10-19 18:05:37.272 (10176): (alter column [Extract].[Extract].[Country] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.272 (10176): Compiling query with Memory Budget=686084096 MemoryAvailable=686084096
+2023-10-19 18:05:37.280 (10176): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2023-10-19 18:05:37.280 (23380): Session1: QueryExecute:
+2023-10-19 18:05:37.280 (23380): (alter column [Extract].[Extract].[City] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.280 (23380): Compiling query with Memory Budget=686080000 MemoryAvailable=686080000
+2023-10-19 18:05:37.297 (23380): Session1: QueryExecute: OK, Elapsed time:0.017s, Compilation time:0.000s, Execution time:0.017s
+2023-10-19 18:05:37.297 (10412): Session1: QueryExecute:
+2023-10-19 18:05:37.297 (10412): (alter column [Extract].[Extract].[State] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.297 (10412): Compiling query with Memory Budget=686080000 MemoryAvailable=686080000
+2023-10-19 18:05:37.313 (10412): Session1: QueryExecute: OK, Elapsed time:0.016s, Compilation time:0.000s, Execution time:0.016s
+2023-10-19 18:05:37.313 (1840): Session1: QueryExecute:
+2023-10-19 18:05:37.313 (1840): (alter column [Extract].[Extract].[Postal Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.313 (1840): Compiling query with Memory Budget=686075904 MemoryAvailable=686075904
+2023-10-19 18:05:37.329 (1840): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2023-10-19 18:05:37.329 (15788): Session1: QueryExecute:
+2023-10-19 18:05:37.329 (15788): (alter column [Extract].[Extract].[Region] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.329 (15788): Compiling query with Memory Budget=686080000 MemoryAvailable=686080000
+2023-10-19 18:05:37.337 (15788): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2023-10-19 18:05:37.337 (24692): Session1: QueryExecute:
+2023-10-19 18:05:37.337 (24692): (alter column [Extract].[Extract].[Product ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.337 (24692): Compiling query with Memory Budget=686080000 MemoryAvailable=686080000
+2023-10-19 18:05:37.353 (24692): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2023-10-19 18:05:37.353 (22628): Session1: QueryExecute:
+2023-10-19 18:05:37.353 (22628): (alter column [Extract].[Extract].[Category] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.353 (22628): Compiling query with Memory Budget=685789184 MemoryAvailable=685789184
+2023-10-19 18:05:37.361 (22628): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2023-10-19 18:05:37.361 (24104): Session1: QueryExecute:
+2023-10-19 18:05:37.361 (24104): (alter column [Extract].[Extract].[Sub-Category] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.361 (24104): Compiling query with Memory Budget=685879296 MemoryAvailable=685879296
+2023-10-19 18:05:37.385 (24104): Session1: QueryExecute: OK, Elapsed time:0.019s, Compilation time:0.000s, Execution time:0.019s
+2023-10-19 18:05:37.385 (10176): Session1: QueryExecute:
+2023-10-19 18:05:37.385 (10176): (alter column [Extract].[Extract].[Product Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.385 (10176): Compiling query with Memory Budget=685723648 MemoryAvailable=685723648
+2023-10-19 18:05:37.401 (10176): Session1: QueryExecute: OK, Elapsed time:0.016s, Compilation time:0.000s, Execution time:0.015s
+2023-10-19 18:05:37.401 (23380): Session1: QueryExecute:
+2023-10-19 18:05:37.401 (23380): (alter column [Extract].[Extract].[Sales] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.401 (23380): Compiling query with Memory Budget=685887488 MemoryAvailable=685887488
+2023-10-19 18:05:37.409 (23380): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2023-10-19 18:05:37.409 (10412): Session1: QueryExecute:
+2023-10-19 18:05:37.409 (10412): (alter column [Extract].[Extract].[Quantity] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.409 (10412): Compiling query with Memory Budget=685858816 MemoryAvailable=685858816
+2023-10-19 18:05:37.425 (10412): Session1: QueryExecute: OK, Elapsed time:0.015s, Compilation time:0.000s, Execution time:0.015s
+2023-10-19 18:05:37.425 (1840): Session1: QueryExecute:
+2023-10-19 18:05:37.425 (1840): (alter column [Extract].[Extract].[Discount] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.425 (1840): Compiling query with Memory Budget=685858816 MemoryAvailable=685858816
+2023-10-19 18:05:37.442 (1840): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2023-10-19 18:05:37.442 (15788): Session1: QueryExecute:
+2023-10-19 18:05:37.442 (15788): (alter column [Extract].[Extract].[Profit] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.442 (15788): Compiling query with Memory Budget=685854720 MemoryAvailable=685854720
+2023-10-19 18:05:37.458 (15788): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.018s
+2023-10-19 18:05:37.458 (24692): Session1: QueryExecute:
+2023-10-19 18:05:37.458 (24692): (alter column [Extract].[Extract].[Loss] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-10-19 18:05:37.458 (24692): Compiling query with Memory Budget=685854720 MemoryAvailable=685854720
+2023-10-19 18:05:37.466 (24692): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2023-10-19 18:05:37.466 (22628): Session1: QueryExecute:
+2023-10-19 18:05:37.466 (22628): (top (table [Extract].[Extract]) () 0)
+2023-10-19 18:05:37.475 (22628): Compiling query with DOP=4
+2023-10-19 18:05:37.475 (22628): Compiling query with Memory Budget=685854720 MemoryAvailable=685854720
+2023-10-19 18:05:37.475 (22628): Session1: QueryExecute: OK rowset_guid=5 n_columns=24, Elapsed time:0.008s, Compilation time:0.004s, Execution time:0.004s
+2023-10-19 18:05:37.475 (24104): Session1: RowsetClose: rowset_guid=5
+2023-10-19 18:05:37.482 (10176): Session1: QueryExecute:
+2023-10-19 18:05:37.482 (10176): (sort [Extract].[Extract] ( ( [Order Date] asc) ( [Segment] asc) ( [Category] asc) ( [Ship Mode] asc) ( [Region] asc) ( [Month] asc) ( [Discount] asc) ( [Quantity] asc) ( [Sub-Category] asc) ( [Day] asc) ( [State] asc) ( [City] asc) ( [Postal Code] asc) ( [Loss] asc) ( [Customer ID] asc) ( [Customer Name] asc) ( [Order ID] asc) ( [Product Name] asc) ( [Product ID] asc) ( [Profit] asc) ( [Sales] asc) ( [Row ID] asc) ) )
+2023-10-19 18:05:37.482 (10176): Compiling query with Memory Budget=685850624 MemoryAvailable=685850624
+2023-10-19 18:05:37.718 (10176): Session1: QueryExecute: OK, Elapsed time:0.239s, Compilation time:0.001s, Execution time:0.239s
+2023-10-19 18:05:37.718 (23380): Session1: QueryExecute:
+2023-10-19 18:05:37.718 (23380): (package)
+2023-10-19 18:05:37.718 (23380): Compiling query with Memory Budget=676646912 MemoryAvailable=676646912
+2023-10-19 18:05:37.718 (23380): PackageDatabase: in-place package of "C:\Users\DELL\OneDrive\Desktop\Financial_data.tde"
+2023-10-19 18:05:37.774 (23380): PackageDatabase: finished
+2023-10-19 18:05:37.774 (23380): Session1: QueryExecute: OK, Elapsed time:0.056s, Compilation time:0.000s, Execution time:0.056s
+2023-10-19 18:05:37.774 (8448): tdeserver: close session1, connection=tab.pipe://./pipe/{4427A521-9704-44C4-880D-48262CD8D139}
+2023-10-19 18:05:37.774 (24980): tdeserver: closing connection=tab.pipe://./pipe/{4427A521-9704-44C4-880D-48262CD8D139}
+2023-10-19 18:05:37.774 (8448): tdeserver: disconnected connection=tab.pipe://./pipe/{4427A521-9704-44C4-880D-48262CD8D139}: IPC_NamedPipeConnection::Read(len=16, connection=tab.pipe://./pipe/{4427A521-9704-44C4-880D-48262CD8D139}): The pipe has been ended.
+2023-10-19 18:05:37.774 (24980): tdeserver: exit (0)
